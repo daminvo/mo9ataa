@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #3F8564;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -123,6 +127,7 @@ transition: all .3s ease;
 }
   
 .credit {
+    display: none;
     position: fixed;
     right: 20px;
     bottom: 20px;
